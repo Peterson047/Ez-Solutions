@@ -2160,6 +2160,14 @@ ol {
   padding: 280px 0 220px 0;
 }
 
+#form {
+  width: 330px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area .hero-content {
     padding: 0px 140px;
