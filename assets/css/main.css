@@ -77,6 +77,42 @@ button:focus,
   border-color: #2ed06e;
 }
 
+
+.logo {
+  height: 220px;
+  transition: ease-in;
+}
+
+/* Estilizando a barra de rolagem */
+body::-webkit-scrollbar {
+  width: 12px;
+  /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Cor do "pulgar" da barra de rolagem */
+  border-radius: 6px;
+  /* Borda arredondada do "pulgar" */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Cor de fundo da barra de rolagem */
+  border-radius: 6px;
+  /* Borda arredondada da trilha da barra de rolagem */
+}
+
+.form iframe {
+  width: 630px;
+  height: 600px;
+  overflow: hidden;
+  /* Oculta a barra de rolagem */
+}
+
+
+
+
 select {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
@@ -2152,7 +2188,7 @@ ol {
 
 @media (max-width: 767px) {
   .hero-area {
-    padding: 110px 0 80px 0;
+    padding: 70px 0 80px 0;
   }
 
   .fadeInLeft {
@@ -2165,11 +2201,11 @@ ol {
   position: relative;
   z-index: 1;
   text-align: left;
-  padding: 280px 0 220px 0;
+  padding: 100px 0 220px 0;
 }
 
 #form {
-  width: 380px;
+  width: 75vh;
   display: flex;
   margin-left: auto;
   margin-right: auto;
